@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vignan Attendance Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+
+    <img src="logo.png" class="logo">
+
+    <h2>Vignan Institute of Technology and Science</h2>
+    <h3>Attendance Portal</h3>
+
+    <button class="logout" onclick="logout()">Logout</button>
+
+    <input id="student" placeholder="RollNo - Name">
+    <button onclick="addStudent()">Add Student</button>
+
+    <textarea id="bulk" placeholder="Paste names or roll numbers (one per line)"></textarea>
+    <button onclick="addBulk()">Add All Students</button>
+
+    <button class="printBtn" onclick="printReport()">Print Report</button>
+
+    <div id="list"></div>
+
+</div>
+
+<script src="script.js"></script>
+<body>
+</html>
